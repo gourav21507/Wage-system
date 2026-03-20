@@ -18,19 +18,19 @@ cith = int(input("Enter CIT in hrs : "))
 
 #Putting cunditions for right input :
 
-while cith > 12 :
+while cith < 0 or cith > 12 :
     print("your input is wrong please enter it again it should be less than 12 hrs : ")
     cith = int(input("Enter CIT in hrs again : "))
 
 citm = int(input("Enter CIT in min : "))
 
-while citm > 60 :
+while citm < 0 or citm > 60 :
     print("your input is wrong please enter it again it should be less than 60 min : ")
     citm = int(input("Enter CIT in min again : "))
 
 cits = int(input("Enter CIT in sec : "))
 
-while cits > 60 :
+while cits < 0 or cits > 60 :
     print("your input is wrong please enter it again it should be less than 60 sec : ")
     cits = int(input("Enter CIT in sec again : "))
 
@@ -48,19 +48,19 @@ while citap not in ["am", "pm", "Am", "Pm", "AM", "PM"] :
 
 coth = int(input("Enter COT in hrs : "))
 
-while coth > 12 :
+while coth < 0 or coth > 12 :
     print("your input is wrong please enter it again it should be less than 12 hrs : ")
     coth = int(input("Enter COT in hrs again : "))
 
 cotm = int(input("Enter COT in min : "))
 
-while cotm > 60 :
+while cotm < 0 or cotm > 60 :
     print("your input is wrong please enter it again it should be less than 60 min : ")
     cotm = int(input("Enter COT in min again : "))
 
 cots = int(input("Enter COT in sec : "))
 
-while cots > 60 :
+while cots < 0 or cots > 60 :
     print("your input is wrong please enter it again it should be less than 60 sec : ")
     cots = int(input("Enter COT in sec again : "))
 
